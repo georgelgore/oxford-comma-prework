@@ -7,7 +7,7 @@ def oxford_comma(array)
     return "#{array[0]}, #{array[1]}, and #{array[2]}"
   else
     output = []
-    array.map{|el| output << "#{el}"}
+    array.map{|el| output << "#{el} "}
     output[0...-1].join{","}
   end
 end
