@@ -8,6 +8,6 @@ def oxford_comma(array)
   else
     output = []
     array.map{|el| output << "#{el} "
-    return output[0...-1].join{","}
+    return output
   end
 end
